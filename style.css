@@ -1,0 +1,64 @@
+  .topnav {
+    background-color: lightgrey;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+
+}
+.header{
+    color: rgb(255, 255, 255);
+    font-size: 5em;
+    text-align: center;
+    
+    background-color: rgb(255, 0, 0);
+    background-position: center;
+    padding: 5%;
+    
+ 
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(40, 113, 66);
+    text-align: center;
+    padding: 2% 1%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+      
+
+
+.header {
+            text-align: center;
+            font-size: 24%;
+            margin-bottom: 20px;
+            color: rgb(255, 0, 0);
+            
+        }
+       
+            
+
+
+
+
+
+
+     
