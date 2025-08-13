@@ -1,5 +1,5 @@
 .topnav {
-  background-color: rgb(115, 114, 114);
+  background-color: rgb(191, 191, 191);
   overflow: hidden;
   position: absolute;
   top: 0;
@@ -23,7 +23,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: rgb(49, 175, 146);
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 2% 1%;
   text-decoration: none;
@@ -37,42 +37,45 @@
   padding: 2%;
 }
 
-    .Districts img {
-      width: 50%;
-      height: 75%;
-      object-fit: cover;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      transition: transform 0.3s ease;
-    }
+.Districts img {
+  width: 50%;
+  height: 75%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
 
-    .Title {
-        margin-top: 10%;
-        text-align: center;
-        font-size: 3em;
-        
+.Title {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 3em;
+
   font-family: "Rubik Doodle Shadow", system-ui;
   font-weight: 400;
   font-style: normal;
   color: skyblue;
-    }
+}
 
-    figure {
-      background: #fff;
-      border-radius: 20%;
-      box-shadow: 0 4% 10% rgba(0,0,0,0.2);
-      overflow: hidden; /* makes rounded corners apply to img + caption */
-      width: 50%;
-      margin: 0;
-        text-align: center;
-    }
-    
+figure {
+  background: #fff;
+  border-radius: 20%;
+  box-shadow: 0 4% 10% rgba(0, 0, 0, 0.2);
+  overflow: hidden; /* makes rounded corners apply to img + caption */
+  width: 50%;
+  margin: 0;
+  text-align: center;
+}
 
-     
+.position-absolute {
+  margin-top: 10rem;
+}
 
-
-
-       
-
-
-  
+.missionbooks {
+  width: 50%;
+  height: 75%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
