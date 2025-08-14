@@ -25,7 +25,7 @@
   display: block;
   color: rgb(0, 0, 0);
   text-align: center;
-  padding: 2% 1%;
+  padding: 1% 1%;
   text-decoration: none;
 }
 
@@ -69,42 +69,64 @@ figure {
 
 .position-absolute {
   margin-top: 10rem;
+  color: red;
 }
 
 .missionbooks {
   display: flex;
   gap: 10%;
-  
-  
+  margin: 5%;
 }
 
 .missionbooks img {
-    width: 80%;
+  width: 85%;
   height: 75%;
   object-fit: cover;
   border-radius: 10%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4% 8% rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
-  
-  
 }
-  .missionbooks figure{
-    text-align: center;
-    }
-   
-    .Mission Title{
-    margin-top: 5%;
-    text-align: center;
-    font-size: 3em;
-    
-    font-family: "Rubik Doodle Shadow", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    color: skyblue;
-
+.missionbooks figure {
+  text-align: center;
 }
-    
 
+.MissionTitle {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 3em;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: burlywood;
+}
 
-  
+.HaightTitle {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 3em;
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: olivedrab;
+}
 
+.NoeValleyTitle {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 3em;
+  font-family: "IM Fell English SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: royalblue;
+}
+
+.CastroTitle {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 3em;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+}
